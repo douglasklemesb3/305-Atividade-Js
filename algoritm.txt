@@ -1,0 +1,19 @@
+entrada do clube
+
+passar os dados  do clube
+
+se o cliente tiver 60 anos e aposentado
+     entrada gratis
+   se o cliente tiver de 0 a 12 anos
+     entrada r$ 10.00  
+     
+    
+   
+   
+   
+   se não 
+     entrada r$15,00
+
+
+se não 
+     entrada r$ 35,00
