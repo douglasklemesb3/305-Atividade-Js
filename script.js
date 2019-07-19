@@ -1,9 +1,24 @@
 
 /*entrada do clube*/
 
-/* let idade = Number(prompt("digite sua idade"));
+ let idade = Number(prompt("digite sua idade"));
+ if(idade>=50){
+    let aposentado = window.confirm("Você é aposentado?")
+    if (aposentado){
+        alert("Entrada gratuita")
+    }else{
+    
+        let answer = window.confirm("Você é estudante?")
+    if (answer) {
+    alert("R$17,50 entrada")
+    }
+    else {
+    alert("R$35,00 entrada")
+        }
+    }
+}
 
-if(idade >= 60){
+ else if(idade >= 60){
     alert("Entrada gratuita"); 
 }
 else if( idade >0 && idade <= 12){
@@ -22,7 +37,7 @@ else if(idade >=18 && idade <=59){
     else {
         alert("entrada R$ 35,00")
     }
-}*/
+}
 
 /*calendario*/
 
@@ -62,7 +77,7 @@ else {
 
 /*sistema de emprestimo*/
 
-let idade = Number(prompt("digite sua idade"));
+/*let idade = Number(prompt("digite sua idade"));
 if(idade >=25 && idade <=60){    
     
     let salario = Number(prompt("digite seu salario")); 
@@ -81,5 +96,8 @@ if(idade >=25 && idade <=60){
     } 
 } else {
     alert("idade inválida para emprestimo.")
-}
+}*/
 
+/*Atividade Extra*/
+
+let numero = Number(prompt("Digite Seu Numero De Celular"));
