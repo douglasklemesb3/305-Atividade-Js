@@ -26,7 +26,7 @@ else if(idade >=18 && idade <=59){
 
 /*calendario*/
 
-let dia = Number(prompt("digite um numero 1 a 7."));
+/*let dia = Number(prompt("digite um numero 1 a 7."));
 
 if(dia == 1){
     alert("Hoje é Domingo!")
@@ -58,4 +58,28 @@ else if( dia == 7){
 
 else {
     alert("Não é Um Numero Valido! ")
+}*/
+
+/*sistema de emprestimo*/
+
+let idade = Number(prompt("digite sua idade"));
+if(idade >=25 && idade <=60){    
+    
+    let salario = Number(prompt("digite seu salario")); 
+    if(salario >= 2000) {
+    
+        let emprestimo = Number(prompt("digite o quanto você quer de emprestimo"));
+        
+        let limite = salario * 10
+        if (emprestimo > limite) {
+            alert("emprestimo negado: o valor solictado nao pode ultrapassar 10x o salário")
+        } else {
+            alert(`seu credito de R$ ${emprestimo} foi aprovado.`);
+        }
+    } else {
+        alert("o salário deve ser maior ou igual 2000.")
+    } 
+} else {
+    alert("idade inválida para emprestimo.")
 }
+
