@@ -1,7 +1,8 @@
 
+
 /*entrada do clube*/
 
- let idade = Number(prompt("digite sua idade"));
+ /*let idade = Number(prompt("digite sua idade"));
  if(idade>=50){
     let aposentado = window.confirm("Você é aposentado?")
     if (aposentado){
@@ -37,7 +38,8 @@ else if(idade >=18 && idade <=59){
     else {
         alert("entrada R$ 35,00")
     }
-}
+}*/
+
 
 /*calendario*/
 
@@ -75,6 +77,7 @@ else {
     alert("Não é Um Numero Valido! ")
 }*/
 
+
 /*sistema de emprestimo*/
 
 /*let idade = Number(prompt("digite sua idade"));
@@ -98,6 +101,15 @@ if(idade >=25 && idade <=60){
     alert("idade inválida para emprestimo.")
 }*/
 
+
+
 /*Atividade Extra*/
 
-let numero = Number(prompt("Digite Seu Numero De Celular"));
+/*let numero = prompt("Digite Seu Numero De Celular");
+
+if(numero[0] == "9" && numero.length == 9){
+    console.log("Numero valido.")
+}
+else{
+    console.log("Numero invalido.")
+}*/
